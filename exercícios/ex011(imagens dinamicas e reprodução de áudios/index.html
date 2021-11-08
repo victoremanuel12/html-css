@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídia html5</title>
+</head>
+<body>
+  <h1>Imagens dinâmicas</h1>
+  <p>tente criar esse site com vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do navegador</p>
+  <picture>
+    <source media="(max-width:700px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="/imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+  </picture>
+  <h1>Reproduzindo áudios</h1>
+  <p>vamos aprender a reproduzir audios em HTML5</p>
+  <audio preload="metadata"autoplay controls>
+    <source src="midia/You Had To Be - E's Jammy Jams.mp3" type="audio.mpeg">
+    <source src="midia/You Had To Be - E's Jammy Jams.mp3" type="audio/mpeg">
+    <source src="midia/You Had To Be - E's Jammy Jams.mp3" type="audio/ogg">
+    <source src="midia/You Had To Be - E's Jammy Jams.mp3" type="audio/wav">
+    <!--
+      O navegador tentará rodar o primeiro audio no caso o mp3, caso ele nao funcione tentará os outros.
+    -->
+  </audio> 
+ 
+</body>
+</html>

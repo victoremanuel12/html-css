@@ -1,0 +1,17 @@
+@font-face {
+  font-family:"love" ;
+  src: url("love story.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+/*
+tipos de format:
+opentype
+truetype
+emdded-opentype
+truetype-att
+svg
+*/
+body{font-family: arial, Helvetica, sans-serif;}
+h1{font-family: "love", Times, serif ;}

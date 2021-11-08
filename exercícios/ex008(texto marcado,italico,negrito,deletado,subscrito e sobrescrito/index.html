@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formatação de textos</title>
+  <style>
+    h1{
+      background-color: mediumseagreen;
+    }
+    mark{
+      background-color: lime;
+    }
+  </style>
+</head>
+<body>
+ <h1>Principais formatações</h1> 
+ <h2>negrito e destaque</h2>
+ <p>nessa frase temos um <b> termo em negrito</b> usando a tag B não semantico</p>
+ <p>nessa frase temos um strong  <strong> que deixa essa frase em negrito tbm </strong>porem strong tem semantica tem significado para o html </p>
+ <h1>Itálico/ênfase</h1>
+ <p>nessa frase temos um <i>termo em negrito</i> usando a tag "i", sem semantica. <br> usar ctrl + shift+p para envelorar o termo que vc quer usar. </p>
+ <p>nesta frase temos um <em>texto em nerito </em> com semantica usando a teg "em"</p>
+ <p></p>
+ <p>evitar usar "b" e " i" pois estão obsoletas, esse tipo de formatação deve ser feita em css, que será estudado mais a frente.</p>
+ <h1>Texto marcado</h1>
+ <p>podemos criar tambem um <mark style="background-color: rgb(6, 252, 6);">texto marcado</mark> usando a tag "MARK" (a marcaçao da cor diferente de amarelo foi feito dentro da tag mark sendo a primeira forma de atribuir cor em html. </p>
+ <p>e no utro paragtafo temos <mark> outro texto marcado </mark> para não precisar repetir varias vezes a cor nos marks subsequentes podemos criar um seletor pros marks a cima do head e atribuir a cor. sendo essa a segunda forma de atribuir cor em html. </p>
+ <h1>Texto grande e pequeno </h1>
+ <p>Estamos criando um <big> texto grande </big> e um <small> texto pequeno </small> dentro de um mesmo paragrafo. Pórem big nao funciona mais  pois não tem sentido e munda forma por isso deve ser feito em css (para Guanabara) </p>
+ <h1>Texto deletado</h1>
+ <p>podemos marcar um <del>texto como excluido</del> para indicar que ele pode ser lido mas nao considerado.</p>
+ <p>Podemos marca um <ins>texto como inserido</ins> para dar enfase e indicar que ele foi adicionado depois.</p>
+ <p>Existe tambem o<u> sublinhado </u>com tag "u"(sem semantica) </p>
+ <h1> Texto subscrito e sobrescrito</h1>
+ <p>Subscrito: para inserir coisa do tipo H<sub>2</sub>O</p>
+ <p>sobrescrito: Para inserir coisas do tipo x<sup>20</sup>+3</p>
+</body>
+</html>

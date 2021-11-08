@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+      color: red;
+      text-decoration: none;
+    }
+    a:visited{
+      color: royalblue;
+    }
+    a:hover{
+      color: black;
+      text-decoration: underline;
+    }
+    a:active{ 
+      color: yellow;
+    }
+    .especial{
+      background-color: rgb(99, 58, 58);
+    width: 100px;}
+    .especial::before{
+    content: "→";
+    }
+  .especial::after{
+    content: "←";
+    color: red;
+    }
+   
+
+/* pseudo elementos usa ::
+resumo: 
+#=id
+.=class
+:=pseudo-class
+::=pseudo-elementos
+
+
+*/
+  </style>
+</head>
+<body>
+  <h1>criando listas</h1>
+  <ul>
+    <li><a href="https://www.oi.com.br/?utm_campaign=res-institucional-brand&utm_source=google&utm_medium=cpc&utm_content=cpa-link-patrocinado-institucional-br-search-conversao-texto&utm_term=hinst&gclid=Cj0KCQjww4OMBhCUARIsAILndv4rOqzXQ0JlDY5LrR2AkqD3q3144CKEnXLVQgmDYKf5dfQ6hpZ6iq0aAp66EALw_wcB&gclsrc=aw.ds"target="_blanck">oi</a></li>
+    <li><a href="https://color.adobe.com/pt/explore"taregt="_blanck">cores</a></li>
+    <li><a href="https://www.google.com"taregt="_blanck">google</a></li>
+    <li class="especial"><a href="https://www.youtube.com/"taregt="_blanck">youtube</a></li>
+  </ul>
+</body>
+</html>
